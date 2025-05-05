@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+
+	  <PackageId>MediaTHOR</PackageId>
+	  <Version>1.0.2</Version>
+	  <Authors>Bruno Rodrigues</Authors>
+	  <Company>Seed IT</Company>
+	  <Description>MediaTHOR é uma biblioteca leve e moderna de mediação para .NET, inspirada no MediatR. Sempre gratuita, ela oferece uma alternativa simples para desacoplamento entre componentes e organização de fluxos de comandos e eventos.</Description>
+	  <PackageTags>mediatr;DI;dependency-injection;</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.2" />
+	  <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
